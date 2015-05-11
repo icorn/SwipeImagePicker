@@ -4,6 +4,8 @@ SwipeImagePicker is a simple image picker for iOS which supports swipe and has n
 It is a UIView which you provide with images, image titles, a rectangle to draw in, and a handler for the users selection.
 It is by no means finished or ready-to-use.
 
+![SwipeImagePicker in Action](SwipeImagePicker/screenshot.png)
+
 ## Installation
 Simply copy `SwipeImagePickerView.swift` into your project.
 
