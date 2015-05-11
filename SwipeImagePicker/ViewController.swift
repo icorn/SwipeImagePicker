@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 		
 		var clipview = SwipeImagePickerView(frame: CGRect(x: 0, y: 100, width: self.view.frame.width, height: 200),
 			images: [UIImage(named: "rabbits.jpg")!, UIImage(named: "cat.jpg")!, UIImage(named: "piggy.jpg")!],
-			titles: ["Rabbits", "White Cat"]) { (tappedIndex: Int) in
+			titles: ["Rabbits", "White Cat", "Piggy"]) { (tappedIndex: Int) in
 				
 				var alertView = UIAlertView(title: "SwipeImagePickerView", message: "Tapped image number \(tappedIndex)", delegate: nil, cancelButtonTitle: "OK")
 				alertView.show()
